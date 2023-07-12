@@ -16,24 +16,32 @@ body {
   color: #FAF4E4;
 }
 
-h2 {
+h3 {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 a {
+  display: block;
+  max-width: 20vw;
+  margin: auto;
+}
+
+a:any-link {
   color: #FAF4E4;
+  text-decoration: none;
 }
 
 a:hover, 
 a:focus {
   filter: brightness(150%);
-  transform: scale(1.2);
+  border: 0.5px dotted hsla(44, 69%, 94%, 0.6);
+  transform: scale(1.1);
   transition: all 0.3s;
 }
 
 form {
-  padding: 2rem;
+  padding: 1rem;
   width: 80%;
   margin: auto;
 }

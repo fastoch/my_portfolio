@@ -23,20 +23,23 @@ body {
 
 h1 {
   margin: 0 0 1rem;
+  font-size: clamp(0.8rem, 4vw, 2rem);
 }
 
 ul {
-  margin-left: 1rem;
   padding: 1rem;
   list-style-type: none;
-  font-size: clamp(1em, 3vw, 1.75em);
+  font-size: clamp(0.8em, 2.5vw, 1.5em);
   text-align: center;
 }
 
 li {
-  display: block;
   border: 1px solid #FAF4E4;
-  max-width: 50%;
-  padding: clamp(0.5rem, 1vw, 1rem);
+  width: clamp(130px, 40vw, 1000px);
+  padding: clamp(0.5rem, 1.5vw, 1rem);
   margin: auto;
+}
+
+a:any-link {
+  color: #FAF4E4;
 }
