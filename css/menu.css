@@ -7,8 +7,10 @@
 }
 
 :root {
-  --HEADER-BGCOLOR: #333;
-  --HEADER-COLOR: whitesmoke;
+  --HEADER-BGCOLOR: #28545E;
+  --HEADER-COLOR: #FAF4E4;
+  --MAIN-BGCOLOR: #FAF4E4;
+  --MAIN-COLOR: #28545E;
 }
 
 html {
@@ -150,4 +152,10 @@ nav a:hover,
 nav a:focus {
   transform: scale(1.2);
   transition: all 0.3s;
+}
+
+main {
+  background-color: #FAF4E4;
+  display: flex;
+  flex-grow: 1;
 }

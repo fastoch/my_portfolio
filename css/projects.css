@@ -1,12 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
 body {
   /* TODO */
-  background-color: hsl(hue, saturation, lightness);
+  background-color: #28545E;
+  color: #FAF4E4;
   padding: 1rem 2rem;
   display: flex;
   flex-flow: column nowrap;
@@ -14,7 +22,6 @@ body {
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0 0 1rem;
 }
 
@@ -28,7 +35,7 @@ ul {
 
 li {
   display: block;
-  border: 1px solid #333;
+  border: 1px solid #FAF4E4;
   max-width: 50%;
   padding: clamp(0.5rem, 1vw, 1rem);
   margin: auto;
