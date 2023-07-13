@@ -24,10 +24,20 @@ body {
 h1 {
   margin: 0 0 1rem;
   font-size: clamp(0.8rem, 4vw, 2rem);
+  text-align: center;
+}
+
+.title a {
+  text-decoration: none;
+  color: #FAF4E4;
+}
+
+.title a:hover {
+  font-size: clamp(1.1em, 2.8vw, 1.8em);
+  color: hsl(191, 60%, 60%);
 }
 
 ul {
-  padding: 1rem;
   list-style-type: none;
   font-size: clamp(0.8em, 2.5vw, 1.5em);
   text-align: center;
@@ -35,11 +45,23 @@ ul {
 
 li {
   border: 1px solid #FAF4E4;
+  border-radius: 5px;
   width: clamp(130px, 40vw, 1000px);
-  padding: clamp(0.5rem, 1.5vw, 1rem);
   margin: auto;
+  margin-bottom: 0.5rem;
+  background-color: #28555F;
 }
 
-a:any-link {
+.list a:any-link {
   color: #FAF4E4;
+  display: block;
+  width: clamp(130px, 40vw, 1000px);
+  padding: 1rem;
+}
+
+.list a:hover, 
+.list a:focus {
+  box-shadow: 0 0 12px #333 inset;
+  font-size: clamp(0.9em, 2.6vw, 1.6em);
+  text-decoration: none;
 }
